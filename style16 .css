@@ -1,0 +1,55 @@
+form {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 350px;
+    width: 100vh;
+    
+
+
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+
+#email {
+    display: flex;
+    width: 31.65%;
+}
+
+#last {
+    margin-left: 220px;
+}
+
+.rating-css {
+    display: flex;
+}
+
+.rating-css div {
+    color: orange;
+
+}
+
+.rating-css input {
+    display: none;
+}
+
+.rating-css input+label {
+    font-size: 20px;
+    text-shadow: 1px 1px 0 rgb(92, 61, 34);
+    cursor: pointer;
+}
+
+.rating-css input:checked+label~label {
+    color: #838383;
+}
+
+.left {
+    text-align: left;
+}
+
+td {
+    width: 16%;
+}
